@@ -31,7 +31,7 @@
     color: #00a8ad;
 }
 .header{
-    background-image: url('images/mount.jpg');
+    background-image: url('/images/mount.jpg');
     height: 95vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@ margin: 10px auto;
     border-radius: 4rem;
 }
 #about{
-    background: url('images/abt.jpg');
+    background: url('/images/abt.jpg');
     height: 70vh;
     background-size: cover;
 }
@@ -112,7 +112,7 @@ margin: 10px auto;
     padding: 0.5rem;
 }
 #img{
-    background: url('images/frmp.png');
+    background: url('/images/frmp.png');
     height: 100vh;
     background-size: cover;
     height: 40rem;
