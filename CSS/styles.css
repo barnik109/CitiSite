@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0.7rem;
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+.navbar ul li a:hover{
+    background: #00a8ad;
+}
+.txtclr{
+    color: #00a8ad;
+}
+.header{
+    background-image: url('mount.jpg');
+    height: 95vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header div{
+    color: white;
+    height: 100%;
+    text-align: center;
+    background:rgba(0, 0, 0,0.7);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.htxt1{
+    font-size: 4rem;
+    margin-bottom: 0.6rem;
+}
+.ptext{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.btn{
+    background-color: #00a8ad;
+    color: white;
+    padding: 0.7rem;
+    border: none;
+    width: 6.7rem;
+}
+#srvcs{
+    display: flex;
+    flex: 1;
+}
+.container{
+    margin: 10px auto;
+    width: 74rem;
+}
+.srvcsh{
+    text-align: center;
+}
+.cardp{
+font-size: 1rem;
+margin: 10px auto;
+}
+.card{
+    text-align: center;
+    padding: 1.3rem;
+}
+.card i{
+    background-color: #00a8ad;
+    padding: 2rem;
+    border-radius: 4rem;
+}
+#about{
+    background: url('abt.jpg');
+    height: 70vh;
+    background-size: cover;
+}
+#about div{
+    background-color: rgba(0, 0, 0,0.7);
+    height: 100%;
+}
+.abth1{
+    color: white;
+    text-align: right;
+    padding: 8rem 6rem 0rem 45rem;
+    font-size: 2.5rem;
+}
+.abtp{
+    color: white;
+    text-align: right;
+    padding: 1rem 6rem 0rem 60rem;
+}
+.abtb{
+    margin: 1rem 6rem 0 0;
+    float: right;
+    padding: 0.5rem;
+}
+#img{
+    background: url('frmp.png');
+    height: 100vh;
+    background-size: cover;
+    height: 40rem;
+    width: 50rem;
+}
+.form{
+    text-align: right;
+    margin-left: 50rem;
+    margin-top: 9.5rem;
+}
+input{
+    height: 3.5rem;
+    width: 30rem;
+    border: 10px solid #4e8598;
+}
+.fh1{
+    font-size: 3rem;
+    color: #00a8ad;
+    text-align: right;
+}
+label{
+    font-size: 1rem;
+    color: black;
+}
+.fbtn{
+    background-color: #00a8ad;
+    padding: 0.7rem;
+    width: 5.6rem;
+    margin-top: 1rem;
+}
+footer{
+    background: #384a4f;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+}
