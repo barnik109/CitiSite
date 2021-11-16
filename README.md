@@ -1,2 +1,2 @@
 # CitiSite
-This a sample citisite created by me using html and css.
+This a sample Citi Site created by me using html and css.
